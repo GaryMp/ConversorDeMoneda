@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent">
+
+   <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="centerCrop"
+      android:src="@drawable/fondo_rosas" />
+
+   <LinearLayout
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@android:color/transparent">
+
+      <TextView
+          android:id="@+id/titulo"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Convierte tus pesitos ratoncita"
+          android:background="@android:color/transparent"
+               android:textColor="#6A1B9A"/>
+
+      <TextView
+          android:id="@+id/introduccion"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="En el cuadro de abajo digita el monto chileno a convertir"
+          android:background="@android:color/transparent"
+               android:textColor="#6A1B9A"/>
+
+      <EditText
+          android:id="@+id/cantidad_chilenos"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Ingresa la cantidad de pesos chilenos"
+          android:background="@android:color/transparent"
+          android:textColor="#6A1B9A"/>
+            android:inputType="number" />
+            android:digits="0123456789" />
+
+      <Button
+          android:id="@+id/btn_convertir"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Convertir"
+          android:background="@android:color/transparent"
+          android:textColor="@android:color/white"/>
+
+      <TextView
+          android:id="@+id/cantidad_mexicanos"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Tu conversión es: "  
+          android:background="@android:color/transparent"
+               android:textColor="#6A1B9A"/>
+   </LinearLayout>
+    </FrameLayout>

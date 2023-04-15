@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+				<item name="colorPrimary">#FF4081</item>
+		<item name="colorPrimaryDark">#F50057</item>
+		<item name="colorAccent">#FF4081</item>
+		<item name="android:textColor">#000000</item>
+		
+		<item name="android:layout_marginLeft">32dp</item>
+		<item name="android:layout_marginRight">32dp</item>
+		<item name="android:layout_marginTop">32dp</item>
+		<item name="android:layout_marginBottom">32dp</item>
+		
+	</style>
+</resources>
